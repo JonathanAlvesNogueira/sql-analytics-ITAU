@@ -127,3 +127,16 @@ DQL  =                                      SELECT
         -ORDER BY
         -TOP
 */
+
+/* VERIFICANDO SE É O QUE QUERO ATUALIZAR */
+SELECT NOME, SEXO
+FROM CLIENTE
+WHERE NOME = 'ANTONIO';
+
+
+USE COMERCIO;
+
+/* Trocando ANTONIO por paula */
+UPDATE CLIENTE
+SET NOME = 'PAULA', SEXO = 'F'
+WHERE NOME = 'ANTONIO';
