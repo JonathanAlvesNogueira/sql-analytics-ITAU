@@ -104,3 +104,26 @@ DCL = DATA CONTROL LANGUAGE =               GRANT e REVOKE
 TCL = TRANSACTION CONTROL LANGUAGE=         COMMIT, BEGIN e ROLLBACK.
 DQL  =                                      SELECT
 */
+
+/*
+	ORDEM DE ESCRITA SQL 
+		-SELECT
+        -FROM
+        -WHERE
+        -GROUP BY
+        -HAVING
+        -ORDER BY
+        
+	ORDEM DE EXECCUÇÃO SQL
+		-FROM
+        -ON
+        -JOIN
+        -WHERE
+        -GROUP BY
+        -WITH CUBE OR WITH ROLLUP
+        -HAVING
+        -SELECT 
+        -DISTINCT
+        -ORDER BY
+        -TOP
+*/
